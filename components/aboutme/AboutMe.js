@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 import styles from "./AboutMe.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +22,13 @@ const AboutMe = () => {
   return (
     <section className={styles.aboutMeSection} id="about-me">
       <div className={styles.content}>
-        <img src="tuong.jpg" alt="Your Name" className={styles.profilePhoto} />
+        <Image
+          src="/tuong.jpg"
+          width={200}
+          height={200}
+          alt="Tuong Pham"
+          className={styles.profilePhoto}
+        />
         <div className={styles.aboutText}>
           <h2>About Me</h2>
           <p>
