@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./Title.module.css";
+import styles from "./Title1.module.css";
 
 const Title = () => {
   return (
