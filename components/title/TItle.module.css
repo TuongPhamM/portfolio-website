@@ -1,0 +1,18 @@
+.title {
+  font-size: 1.4rem;
+  color: white;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+.title:hover {
+  opacity: 1; /* full opacity when hovered*/
+}
+
+@media (max-width: 522px) {
+  .title {
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+  }
+}

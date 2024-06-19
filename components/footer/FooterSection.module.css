@@ -1,0 +1,112 @@
+.footerSection {
+  background-color: #0a0a0a;
+  padding: 2rem 0;
+  color: #fcfcfc;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0 0rem;
+}
+
+.footerCta {
+  background-color: #0a0a0a;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0rem; /* Adjust gap between columns */
+}
+
+.col {
+  flex: 1 1 20%;
+  margin-bottom: 1rem;
+  padding: 0 1rem; /* Add padding inside columns */
+}
+
+.singleCta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ctaText h4 {
+  margin-bottom: 0.5rem;
+}
+
+.listContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listContainer li {
+  margin-bottom: 0.5rem;
+}
+
+.listContainer li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.listContainer li a:hover {
+  color: #bdbdbd;
+}
+
+.projectButtonLink {
+  display: flex;
+  align-items: center;
+}
+
+.footerWidgetHeading h3 {
+  margin-bottom: 1rem;
+}
+
+.footerText {
+  margin-bottom: 1rem;
+}
+
+.footerSocialIcon a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #fafafa;
+}
+
+@media (max-width: 1221px) {
+  .footerSection {
+    margin: 0 3rem;
+  }
+
+  .col {
+    flex: 1 1 45%;
+  }
+
+  .row {
+    justify-content: center;
+    gap: 2rem; /* Increase gap between columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .col {
+    flex: 1 1 100%;
+  }
+
+  .row {
+    justify-content: center;
+    gap: 2rem; /* Maintain gap between columns on small screens */
+  }
+
+  .listContainer {
+    text-align: center;
+  }
+}

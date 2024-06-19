@@ -1,0 +1,75 @@
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #0a0a0a;
+  color: #f3f3f3;
+}
+
+.carouselContainer {
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.carouselContainer .slick-slider {
+  width: 100%;
+}
+
+.carouselContainer .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carouselItem {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  gap: 2rem;
+}
+
+.divider {
+  width: 60%;
+  height: 1px;
+  background-color: #e9ecef;
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+.profilePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aboutText {
+  flex: 1;
+}
+
+.aboutText h2 {
+  margin-bottom: 1rem;
+}
+
+.aboutText p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutText {
+    text-align: center;
+  }
+}

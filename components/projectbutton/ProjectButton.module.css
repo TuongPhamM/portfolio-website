@@ -1,0 +1,98 @@
+/* components/button/ProjectButton.module.css */
+.button {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Plus Jakarta Sans";
+  position: relative;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid white;
+  border-radius: 30px;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Transition for opacity */
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+.button:hover {
+  transform: scale(1);
+}
+
+.content {
+  width: 185px; /* Set a fixed width */
+  height: 20px; /* Set a fixed height */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.circle,
+.text {
+  transition: transform 0.3s ease, opacity 0.3s ease, border-color 0.3s ease,
+    background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover .circle {
+  transform: translateX(150px);
+  border-color: transparent; /* Make the circle border invisible */
+  background-color: transparent; /* Make the circle background invisible */
+}
+
+.button:hover .text {
+  transform: translateX(-35%);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem; /* Custom width for the circle */
+  height: 2rem; /* Custom height for the circle */
+  border-radius: 50%; /* Makes the div a circle */
+  border: 0.6px solid white;
+  transition: transform 0.3s ease, border-color 0.3s ease,
+    background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.arrow {
+  margin-top: 0.15rem;
+  margin-left: 0.55rem;
+  margin-right: 0.5rem; /* Space between text and arrow */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.arrow img {
+  width: 1.1rem; /* Adjust size of the SVG icon */
+  height: 1.1rem; /* Ensure the SVG icon height is also set */
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.text h5 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; /* Space between text and arrow */
+  font-size: 16px;
+  white-space: nowrap;
+}

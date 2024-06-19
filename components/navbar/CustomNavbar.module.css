@@ -1,0 +1,112 @@
+.navbar {
+  background-color: #0a0a0a;
+  padding: 1rem;
+}
+
+.navContainer {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 13rem; /* Adjust this for spacing from the frame */
+  gap: 3rem;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLink {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.7rem 0rem; /* Add padding to make clickable area larger */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Ensure the link looks clickable */
+  width: 95px; /* Adjust width as necessary */
+  height: 1.2rem; /* Adjust height as necessary */
+}
+
+.linkText {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  align-items: center; /* Center align text */
+  justify-content: center;
+  height: 1.2rem; /* Match font size */
+  width: 100%; /* Ensure full width */
+}
+
+.defaultText,
+.hoverText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: transform 0.35s cubic-bezier(0.7, 0.1, 0.3, 1);
+}
+
+.defaultText {
+  transform: translateY(0);
+}
+
+.hoverText {
+  transform: translateY(100px);
+}
+
+.navLink:hover .defaultText {
+  transform: translateY(-100px);
+}
+
+.navLink:hover .hoverText {
+  transform: translateY(0);
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+  .navContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 4rem; /* Reduce padding on smaller screens */
+  }
+  .navLink {
+    font-size: 0.9rem;
+    width: 75px;
+  }
+}
+
+@media (max-width: 743px) {
+  .navLink {
+    font-size: 0.75rem;
+    width: 60px;
+  }
+}
+
+@media (max-width: 619px) {
+  .navLink {
+    font-size: 0.6rem;
+    width: 50px;
+  }
+}
+
+@media (max-width: 522px) {
+  .navContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 4rem; /* Reduce padding on smaller screens */
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .navLinks {
+    display: flex;
+    gap: 0rem; /* Adds space between nav links */
+    margin: 0rem;
+  }
+}
