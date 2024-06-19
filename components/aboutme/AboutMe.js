@@ -35,18 +35,18 @@ const AboutMe = () => {
             Recently graduated from North Seattle College with a Bachelor's in
             Application Development, I am a self-motivated programmer who treats
             coding not just as a hobby but as a journey to continually better
-            myself. Residing in Seattle, I'm actively seeking opportunities in
-            Software Engineering, Software/Application Development, and Full
+            myself. Residing in Seattle, I&apos;m actively seeking opportunities
+            in Software Engineering, Software/Application Development, and Full
             Stack Development, with an eagerness to start in Summer 2024.
           </p>
           <p>
-            For me, coding is fascinating—computers, with their unwavering
+            For me, coding is fascinating&mdash;computers, with their unwavering
             accuracy, remind me that the solution is always within reach,
             perhaps just a moment of patience away. This mindset has not only
             fueled my academic pursuits but also my personal projects.
           </p>
           <p>
-            Outside of coding, I've found a similar passion in building and
+            Outside of coding, I&apos;ve found a similar passion in building and
             flying FPV drones for the past four years. This hobby has been
             instrumental in transforming my coding skills into a true passion,
             offering a unique blend of technical challenge and creative
