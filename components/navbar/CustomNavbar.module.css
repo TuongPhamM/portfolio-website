@@ -46,7 +46,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  transition: transform 0.35s cubic-bezier(0.7, 0.1, 0.3, 1);
+  transition: transform 0.5s cubic-bezier(0.225, 0.015, 0.02, 1.04);
 }
 
 .defaultText {
@@ -54,7 +54,7 @@
 }
 
 .hoverText {
-  transform: translateY(100px);
+  transform: translateY(30px);
 }
 
 .navLink:hover .defaultText {
