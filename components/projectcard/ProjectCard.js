@@ -3,14 +3,14 @@ import Image from "next/image";
 import styles from "./ProjectCard.module.css";
 import Link from "next/link";
 
-const ProjectCard = ({ title, description, thumbnail, url }) => {
+const ProjectCard = ({ id, title, description, thumbnail }) => {
   return (
     <div className={styles.card}>
-      <Link href={url} passHref>
+      <Link href={`/projects/${id}`}>
         <div>
           <Image
             src={thumbnail}
-            alt={`${title} Thumbnail`}
+            alt={title}
             className={styles.thumbnail}
             width={380}
             height={250}

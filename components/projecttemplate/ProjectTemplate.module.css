@@ -1,0 +1,62 @@
+.projectPage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #0a0a0a; /* Match the overall theme */
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #dcdcdc;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e9ecef;
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+@media (max-width: 768px) {
+  .projectPage {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+}
