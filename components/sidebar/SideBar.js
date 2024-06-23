@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "./Sidebar.module.css";
+import styles from "./SideBar.module.css";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
