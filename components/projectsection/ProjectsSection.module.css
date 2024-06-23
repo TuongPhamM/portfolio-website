@@ -32,13 +32,18 @@
   }
 
   .projectsSection {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .projectsSection {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
