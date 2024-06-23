@@ -1,9 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./AboutMe1.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ProjectButton from "../projectbutton/ProjectButton";
 
 const AboutMe = () => {
   const settings = {
@@ -54,6 +56,9 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
+      <Link href="/contact" passHref>
+        <ProjectButton>CONTACT</ProjectButton>
+      </Link>
       <div className={styles.carouselContainer}>
         <Slider {...settings}>
           <div>
@@ -85,6 +90,14 @@ const AboutMe = () => {
               allowFullScreen
             ></iframe>
           </div>
+          <iframe
+            src="https://giphy.com/embed/WJjqVz80d1dgsV87T2"
+            width="100%"
+            height="400"
+            frameBorder="0"
+            className={styles.carouselItem}
+            allowFullScreen
+          ></iframe>
           <div>
             {" "}
             <iframe

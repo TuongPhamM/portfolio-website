@@ -47,7 +47,7 @@ const FooterSection = () => {
                     rel="noopener noreferrer"
                     className={styles.projectButtonLink}
                   >
-                    <ProjectButton>LinkedIn</ProjectButton>
+                    <ProjectButton>LINKEDIN</ProjectButton>
                   </a>
                 </li>
                 <li>
@@ -57,7 +57,7 @@ const FooterSection = () => {
                     rel="noopener noreferrer"
                     className={styles.projectButtonLink}
                   >
-                    <ProjectButton>Github</ProjectButton>
+                    <ProjectButton>GITHUB</ProjectButton>
                   </a>
                 </li>
                 <li>
@@ -67,7 +67,7 @@ const FooterSection = () => {
                     rel="noopener noreferrer"
                     className={styles.projectButtonLink}
                   >
-                    <ProjectButton>Instagram</ProjectButton>
+                    <ProjectButton>INSTAGRAM</ProjectButton>
                   </a>
                 </li>
               </ul>

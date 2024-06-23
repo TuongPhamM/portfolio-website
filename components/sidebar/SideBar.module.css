@@ -1,0 +1,80 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 1rem;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.linkText {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  align-items: center; /* Center align text */
+  justify-content: center;
+  height: 1.2rem; /* Match font size */
+  width: 100%; /* Ensure full width */
+}
+
+.defaultText,
+.hoverText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: transform 0.5s cubic-bezier(0.225, 0.015, 0.02, 1.04);
+}
+
+.defaultText {
+  transform: translateY(0);
+}
+
+.hoverText {
+  transform: translateY(30px);
+}
+
+.navLink:hover .defaultText {
+  transform: translateY(-100px);
+}
+
+.navLink:hover .hoverText {
+  transform: translateY(0);
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navLink {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.7rem 0rem; /* Add padding to make clickable area larger */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Ensure the link looks clickable */
+  width: 95px; /* Adjust width as necessary */
+  height: 1.2rem; /* Adjust height as necessary */
+}

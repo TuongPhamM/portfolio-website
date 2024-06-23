@@ -1,0 +1,142 @@
+.container {
+  background-color: #0a0a0a;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.divider2 {
+  width: 100%;
+  height: 1px;
+  background-color: #e9ecef;
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.photoContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.titleContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.emailLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.emailLink:hover {
+  text-decoration: underline;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collabText {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ContactForm Styles */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactForm button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background-color: #005bb5;
+}
+
+.divider {
+  width: 60%;
+  height: 1px;
+  background-color: #e9ecef;
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titleContainer {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .formContainer {
+    flex-direction: column;
+  }
+
+  .collabText {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}

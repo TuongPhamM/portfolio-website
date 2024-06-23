@@ -51,12 +51,7 @@ const Intro = () => {
         </div>
       </div>
       <div className={styles.projectbutton}>
-        <a
-          href="#projects"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.projectButtonLink}
-        >
+        <a href="#projects" className={styles.projectButtonLink}>
           <ProjectButton>VIEW PROJECTS</ProjectButton>
         </a>
       </div>

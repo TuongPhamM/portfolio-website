@@ -1,6 +1,12 @@
 .navbar {
-  background-color: #0a0a0a;
+  background-color: transparent;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+  /* transition: opacity 0.3s ease-in-out; */
 }
 
 .navContainer {
@@ -10,6 +16,13 @@
   justify-content: space-between;
   padding: 0 13rem; /* Adjust this for spacing from the frame */
   gap: 3rem;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
 }
 
 .navLinks {
@@ -65,10 +78,6 @@
   transform: translateY(0);
 }
 
-.navLink:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 1100px) {
   .navContainer {
     display: flex;
@@ -89,9 +98,12 @@
 }
 
 @media (max-width: 619px) {
-  .navLink {
-    font-size: 0.6rem;
-    width: 50px;
+  .navLinks {
+    display: none; /* Hide navbar links on smaller screens */
+  }
+
+  .hamburger {
+    display: block;
   }
 }
 
@@ -103,12 +115,6 @@
     justify-content: space-between;
     gap: 1rem;
   }
-
-  .navLinks {
-    display: flex;
-    gap: 0rem; /* Adds space between nav links */
-    margin: 0rem;
-  }
 }
 
 @media (max-width: 419px) {
@@ -118,11 +124,5 @@
     padding: 0 1rem; /* Reduce padding on smaller screens */
     justify-content: space-between;
     gap: 1rem;
-  }
-
-  .navLinks {
-    display: flex;
-    gap: 0rem; /* Adds space between nav links */
-    margin: 0rem;
   }
 }
