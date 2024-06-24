@@ -4,7 +4,7 @@ import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
+    from_name: "",
     email: "",
     message: "",
   });
@@ -18,10 +18,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        "service_27y0ton", // Replace with your EmailJS service ID
-        "template_lrasn8f", // Replace with your EmailJS template ID
+        "service_27y0ton",
+        "template_lrasn8f",
         formData,
-        "IrUVt6NjIdhfZqFXA" // Replace with your EmailJS user ID
+        "IrUVt6NjIdhfZqFXA"
       )
       .then((result) => {
         alert("Thank you for your message.");
@@ -38,9 +38,9 @@ const ContactForm = () => {
           <label htmlFor="firstName">Name</label>
           <input
             type="text"
-            id="mame"
-            name="name"
-            value={formData.name}
+            id="from_name"
+            name="from_name"
+            value={formData.from_name}
             onChange={handleChange}
             required
           />
