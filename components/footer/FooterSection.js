@@ -25,16 +25,16 @@ const FooterSection = () => {
             <div className={styles.col}>
               <ul className={styles.listContainer}>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#projects">Projects</a>
+                  <a href="/#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#footer">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
                 <li>
-                  <a href="#about-me">About Me</a>
+                  <a href="/#about-me">About Me</a>
                 </li>
               </ul>
             </div>
