@@ -1,6 +1,8 @@
 .projectPage {
   max-width: 800px;
-  margin: 0 auto;
+  margin-top: 5rem; /* Increased top margin to ensure it is below the navbar */
+  margin-left: auto;
+  margin-right: auto;
   padding: 2rem;
   background-color: #0a0a0a; /* Match the overall theme */
   color: white;
@@ -10,6 +12,7 @@
 
 .title {
   font-size: 2.5rem;
+  font-weight: 75;
   margin-bottom: 1rem;
   text-align: center;
   color: #ffffff;
