@@ -23,6 +23,13 @@ const projects = [
     description: "LG19 test for OED using Mocha and Chai",
     thumbnail: "/projects/project3.jpg",
   },
+  {
+    id: "nsc-practicum",
+    title: "North Seattle College Events",
+    description:
+      "Seattle College web/app(s) help students navigate in the campus virtually.",
+    thumbnail: "/projects/project4.jpg",
+  },
   // Add more projects as needed
 ];
 
