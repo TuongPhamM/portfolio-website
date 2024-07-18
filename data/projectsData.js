@@ -32,10 +32,20 @@ const projectsData = [
     title: "North Seattle College Events",
     thumbnail: "/projects/project4.jpg",
     description:
-      "Seattle College web/app(s) help students navigate in the campus virtually.",
+      "Seattle College web/app help students navigate in the campus virtually.",
     content:
-      "NSC Events: The NSC Events web and mobile applications allow students to view events hosted by the Student Leadership team and faculty at North Seattle College in a centralized place; Users can: Register an account, log into the app, view events & attend events; Admins can: Create event posts, edit event posts, archive event posts, delete event posts & edit users roles.",
+      "The NSC Events web and mobile applications provide students with a centralized platform to view events hosted by the Student Leadership team and faculty at North Seattle College. Users can register an account, log into the app, view events, and attend events. Admins have the ability to create, edit, archive, and delete event posts, as well as manage user roles.",
     url: "https://northseattlecollegeevents.com/",
+  },
+  {
+    id: "belindas-closet",
+    title: "Belinda's Closet",
+    thumbnail: "/projects/project5.jpg",
+    description:
+      "A web/modile app provide students access to professional clothing of the Seattle College campus.",
+    content:
+      "Belinda's Closet emerged in the fall of 2022 to address the growing need among students for suitable attire on their graduation day. Established by the EDIC team at North Seattle College (NSC), it is currently situated within the Equity & Welcome Center at NSC. The initiative provides access to professional clothing for interviews, employment, and graduation ceremonies, all without any financial burden to the students.",
+    url: "https://belindascloset.com/",
   },
 ];
 

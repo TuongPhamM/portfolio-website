@@ -10,6 +10,21 @@ const projects = [
       "A web application for personal finance management and analysis, integrating with the Plaid API to access banking data securely.",
     thumbnail: "/projects/project1.jpg",
   },
+
+  {
+    id: "nsc-practicum",
+    title: "North Seattle College Events",
+    description:
+      "Seattle College web/app help students navigate in the campus virtually.",
+    thumbnail: "/projects/project4.jpg",
+  },
+  {
+    id: "belindas-closet",
+    title: "Belinda's Closet",
+    description:
+      "A web/modile app provide students access to professional clothing of the Seattle College campus.",
+    thumbnail: "/projects/project5.jpg",
+  },
   {
     id: "fwccn-application",
     title: "Federal Way Community Caregiving Network",
@@ -22,13 +37,6 @@ const projects = [
     title: "Open Energy Dashboard",
     description: "LG19 test for OED using Mocha and Chai",
     thumbnail: "/projects/project3.jpg",
-  },
-  {
-    id: "nsc-practicum",
-    title: "North Seattle College Events",
-    description:
-      "Seattle College web/app(s) help students navigate in the campus virtually.",
-    thumbnail: "/projects/project4.jpg",
   },
   // Add more projects as needed
 ];
