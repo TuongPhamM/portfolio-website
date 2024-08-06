@@ -22,7 +22,7 @@ const projects = [
     id: "belindas-closet",
     title: "Belinda's Closet",
     description:
-      "A web/modile app provide students access to professional clothing of the Seattle College campus.",
+      "A web/mobile app provide students access to professional clothing of the Seattle College campus.",
     thumbnail: "/projects/project5.jpg",
   },
   {
@@ -38,7 +38,6 @@ const projects = [
     description: "LG19 test for OED using Mocha and Chai",
     thumbnail: "/projects/project3.jpg",
   },
-  // Add more projects as needed
 ];
 
 const ProjectsSection = () => {
