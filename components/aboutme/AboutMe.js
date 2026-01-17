@@ -34,25 +34,10 @@ const AboutMe = () => {
         <div className={styles.aboutText}>
           <h2>About Me</h2>
           <p>
-            Recently graduated from North Seattle College with a Bachelor's in
-            Application Development, I am a self-motivated programmer who treats
-            coding not just as a hobby but as a journey to continually better
-            myself. Residing in Seattle, I&apos;m actively seeking opportunities
-            in Software Engineering, Software/Application Development, and Full
-            Stack Development, with an eagerness to start in Summer 2024.
+            Pursuing Master in Software Engineering, I am a self-motivated programmer residing in Bay Area, I'm actively seeking opportunities in Software Engineering, Application and Full-stack Development.
           </p>
           <p>
-            For me, coding is fascinating&mdash;computers, with their unwavering
-            accuracy, remind me that the solution is always within reach,
-            perhaps just a moment of patience away. This mindset has not only
-            fueled my academic pursuits but also my personal projects.
-          </p>
-          <p>
-            Outside of coding, I&apos;ve found a similar passion in building and
-            flying FPV drones for the past four years. This hobby has been
-            instrumental in transforming my coding skills into a true passion,
-            offering a unique blend of technical challenge and creative
-            expression.
+            Outside of coding, building and flying FPV drones are my free time activities. This hobby ignites my love for technologies. Can you imagine piloting something miles away with full awareness?
           </p>
         </div>
       </div>

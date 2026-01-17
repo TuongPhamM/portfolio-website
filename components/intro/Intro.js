@@ -10,11 +10,11 @@ const Intro = () => {
       <div className={styles.intro}>
         <h1>Tuong Pham®</h1>
         <div className={styles.description}>
-          <h5>Recently graduated Software Engineer,</h5>
+          <h5> Graduate student currently pursuing Master's at SJSU,</h5>
           <h5>
-            dedicated to enhancing web, application, and software reliability.
+            I like enhancing user interface and software capability.
           </h5>
-          <h5>— Seeking for opportunities.</h5>
+          <h5>— Available in the US.</h5>
         </div>
       </div>
       <div className={styles.projectbutton}>
