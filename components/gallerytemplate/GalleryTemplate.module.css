@@ -1,0 +1,71 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 7rem 2rem 4rem; /* top padding to avoid fixed navbar */
+  color: white;
+}
+
+.title {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 300;
+  margin: 0 0 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+.videoWrap {
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* Responsive 16:9 */
+.videoWrap::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.text {
+  margin: 0;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1rem;
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.listItem {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.6;
+}

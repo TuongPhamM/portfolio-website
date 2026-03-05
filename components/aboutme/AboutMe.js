@@ -34,10 +34,14 @@ const AboutMe = () => {
         <div className={styles.aboutText}>
           <h2>About Me</h2>
           <p>
-            Pursuing Master in Software Engineering, I am a self-motivated programmer residing in Bay Area, I'm actively seeking opportunities in Software Engineering, Application and Full-stack Development.
+            Pursuing Master in Software Engineering, I am a self-motivated
+            programmer residing in Bay Area, I'm actively seeking opportunities
+            in Software Engineering, Application and Full-stack Development.
           </p>
           <p>
-            Outside of coding, building and flying FPV drones are my free time activities. This hobby ignites my love for technologies. Can you imagine piloting something miles away with full awareness?
+            Outside of coding, building and flying FPV drones are my free time
+            activities. This hobby ignites my love for technologies. Can you
+            imagine piloting something miles away with full awareness?
           </p>
         </div>
       </div>

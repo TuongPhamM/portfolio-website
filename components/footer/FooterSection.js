@@ -11,7 +11,7 @@ const FooterSection = () => {
             <div className={styles.col}>
               <div className={styles.singleCta}>
                 <div className={styles.ctaText}>
-                  <span>Seattle, WA</span>
+                  <span>San Jose, CA</span>
                 </div>
               </div>
             </div>

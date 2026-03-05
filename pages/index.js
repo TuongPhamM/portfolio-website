@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container" style={{ position: "relative", zIndex: 0 }}>
       <Head>
-        <title>My Portfolio</title>
+        <title>Tuong Pham</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{ position: "relative", zIndex: 1 }}>

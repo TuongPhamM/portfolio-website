@@ -25,6 +25,14 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             </div>
           </div>
         </Link>
+        <Link href="/fpv" passHref>
+          <div className={styles.navLink}>
+            <div className={styles.linkText}>
+              <span className={styles.defaultText}>FPV</span>
+              <span className={styles.hoverText}>FPV</span>
+            </div>
+          </div>
+        </Link>
         <Link href="/#about-me" passHref>
           <div className={styles.navLink}>
             <div className={styles.linkText}>

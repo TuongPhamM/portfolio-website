@@ -45,6 +45,14 @@ const CustomNavbar = () => {
                 </div>
               </div>
             </Link>
+            <Link href="/fpv" passHref>
+              <div className={styles.navLink}>
+                <div className={styles.linkText}>
+                  <span className={styles.defaultText}>FPV</span>
+                  <span className={styles.hoverText}>FPV</span>
+                </div>
+              </div>
+            </Link>
             <Link href="/contact" passHref>
               <div className={styles.navLink}>
                 <div className={styles.linkText}>
