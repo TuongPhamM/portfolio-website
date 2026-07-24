@@ -2,7 +2,7 @@ export const galleryItems = [
   {
     id: "fpv-1",
     title: "Oregon West Coast",
-    vimeoId: "1170077881", // <-- replace with your Vimeo video ID
+    vimeoId: "1212519024", // <-- replace with your Vimeo video ID
     description:
       "A short cinematic FPV sequence focused on smooth proximity lines and parallax.",
     gear: [
@@ -84,7 +84,7 @@ export const galleryItems = [
   {
     id: "fpv-8",
     title: "American Alps surfing.",
-    vimeoId: "1170470058",
+    vimeoId: "1212514771",
     description:
       "Here’s the raw look of beautiful American alps. Music by @modera.music",
     gear: [
