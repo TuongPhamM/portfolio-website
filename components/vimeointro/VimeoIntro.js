@@ -29,7 +29,7 @@ const VimeoIntro = () => {
         <h1 className={styles.name}>Tuong Pham®</h1>
 
         <div className={styles.description}>
-          <p>FPV Drone Operator — Available in California.</p>
+          <p>FPV Drone Operator — Available in the US.</p>
         </div>
 
         <a href="#projects" className={styles.projectButtonLink}>
