@@ -4,7 +4,7 @@ import ProjectButton from "../projectbutton/ProjectButton";
 
 const VimeoIntro = () => {
   // Replace with your Vimeo video ID
-  const vimeoId = "1170575164";
+  const vimeoId = "1212517921";
 
   // Background video settings:
   // background=1 enables background mode (hides UI), loop/autoplay/muted for seamless loop
